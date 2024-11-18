@@ -10,7 +10,7 @@ body {
 
 .nav-bar {
     display: flex;
-    width: 600px;
+    max-width: 100%;
     justify-content: space-between;
     padding: 5px;
     z-index: 10000;
@@ -48,6 +48,7 @@ body {
     display: flex;
     font-family: 'Lato', sans-serif;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 .fa-search {
@@ -65,7 +66,7 @@ body {
 
 .first-bg-img {
     background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
-    width: 100%;
+    max-width: ;width: 100%;
     min-height: 400px;
     background-attachment: scroll;
     background-position: center;
@@ -81,7 +82,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    width: 500px;
+    max-width: 30%;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
@@ -100,23 +101,32 @@ body {
     text-align: center;
     font-weight: 500;
     color:  #777777;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photography {
     text-align: center;
     color:  #777777;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .first-body-text {
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
+    max-width: 100%;
     line-height: 1.6;
     color:  #777777;
+    max-width: 980px;
 }
 
 .body-sec-container {
-    padding: 0 250px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .body-sec {
@@ -135,14 +145,22 @@ body {
     font-weight: 600;
 }
 
+.welcome-text-container {
+    width: 100%;
+}
+
 .welcome-text {
     line-height: 1.6;
     margin-left: 50px;
     color:  #777777;
+    max-width: 100%;
 }
 
 .face-img-container {
     display: flex;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .face-img {
@@ -160,12 +178,22 @@ body {
     margin-top: 40px;
     text-align: center;
     color:  #777777;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
 }
 
 .sliders-title {
     display: flex;
     align-items: center;
     color:  #777777;
+}
+
+.sliders-container {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fa-camera, .fa-laptop, .fa-picture-o {
@@ -176,8 +204,8 @@ body {
     letter-spacing: 10px;
 }
 
-.milk-white-slide-1  {
-    width: 100%;
+.milk-white-slide-1, .milk-white-slide-2, .milk-white-slide-3    {
+    max-width: 100%;
     background-color: #e9f5e9;
 }
 
@@ -190,11 +218,6 @@ body {
     padding-bottom: 5px;
 }
 
-.milk-white-slide-2 {
-    width: 100%;
-    background-color: rgb(233, 245, 233);
-}
-
 .green-slide-2 {
     width: 85%;
     background-color: #808080;
@@ -202,11 +225,6 @@ body {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-}
-
-.milk-white-slide-3 {
-    width: 100%;
-    background-color: rgb(233, 245, 233);
 }
 
 .green-slide-3 {
@@ -257,7 +275,7 @@ body {
     letter-spacing: 10px;
     color: white;
     text-align: center;
-    width: 500px;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
@@ -267,18 +285,26 @@ body {
 }
 
 .my-work-padded {
-    padding: 0 250px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my-work {
     text-align: center;
     font-weight: 500;
     color:  #777777;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my-work-text {
     text-align: center;
     color:  #777777;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my-work-container {
@@ -293,10 +319,12 @@ body {
     gap: 20px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
+    max-width: 980px;
 }
 
 .grid-images {
-    width: 240px;
+    width: 230px
 }
 
 .grid-images:hover {
@@ -334,7 +362,7 @@ body {
     letter-spacing: 10px;
     color: white;
     text-align: center;
-    width: 500px;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
@@ -345,7 +373,9 @@ body {
 
 
 .where-i-work-container {
-    padding: 0 250px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .where-i-work-text {
@@ -353,12 +383,18 @@ body {
     font-weight: 500;
     color:  #777777;
     margin-top: 100px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .feedback {
     text-align: center;
     color:  #777777;
     margin-bottom: 50px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-names {
@@ -407,25 +443,29 @@ body {
 .name-bar {
     padding: 10px 5px;
     font-size: 1rem;
-    width: 320px;
+    width: 50%;
     border: 1px solid #808080;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .email-bar {
     padding: 10px 5px;
     font-size: 1rem;
-    width: 320px;
+    width: 50%;
     border: 1px solid #808080;
 }
 
 .message-bar {
     padding: 10px 5px;
     font-size: 1rem;
-    width: 678px;
+    width: 98.5%;
     border: 1px solid #808080;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.contact-sub {
+    width: 100%;
 }
 
 .send-btn {
@@ -453,6 +493,10 @@ body {
 
 .contact-flex-container {
     display: flex;
+    justify-content: center;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
